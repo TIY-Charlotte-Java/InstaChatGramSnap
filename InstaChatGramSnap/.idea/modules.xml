@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InstaChatGramSnap.iml" filepath="$PROJECT_DIR$/.idea/modules/InstaChatGramSnap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InstaChatGramSnap_main.iml" filepath="$PROJECT_DIR$/.idea/modules/InstaChatGramSnap_main.iml" group="InstaChatGramSnap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/InstaChatGramSnap_test.iml" filepath="$PROJECT_DIR$/.idea/modules/InstaChatGramSnap_test.iml" group="InstaChatGramSnap" />
+    </modules>
+  </component>
+</project>
