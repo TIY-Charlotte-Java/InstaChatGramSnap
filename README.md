@@ -1,5 +1,9 @@
 # InstaChatGramSnap
 
+Let's write an instagram snapchat hybrid! But first, enjoy this gif of Ewan Mcgregor as Obi-Wan Kenobi dancing around in his transport:
+
+![obiwan](http://i.imgur.com/OxwIC0O.gif)
+
 ## Description
 
 Turn the IronGram project we made in class into a SnapChat-like service by making it delete the photos briefly after they are first viewed.
