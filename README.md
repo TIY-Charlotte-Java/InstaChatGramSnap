@@ -4,6 +4,8 @@ Let's write an instagram snapchat hybrid! But first, enjoy this gif of Ewan Mcgr
 
 ![obiwan](http://i.imgur.com/OxwIC0O.gif)
 
+Now for our assignment.
+
 ## Description
 
 Turn the IronGram project we made in class into a SnapChat-like service by making it delete the photos briefly after they are first viewed.
