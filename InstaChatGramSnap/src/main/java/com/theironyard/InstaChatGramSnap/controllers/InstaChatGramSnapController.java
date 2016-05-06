@@ -27,8 +27,9 @@ import java.util.List;
  */
 
 @RestController
-public class InstaChatGramSnapController {@Autowired
-UserRepository users;
+public class InstaChatGramSnapController {
+    @Autowired
+    UserRepository users;
 
     @Autowired
     PhotoRepository photos;

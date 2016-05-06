@@ -58,4 +58,13 @@ public class Photo {
         this.recipient = recipient;
         this.filename = filename;
     }
+
+    public static void remove(int num){
+        try {
+            Thread.sleep(num * 1000);
+
+        } catch (InterruptedException ie) {
+
+        }
+    }
 }
