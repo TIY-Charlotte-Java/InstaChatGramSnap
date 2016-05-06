@@ -18,7 +18,17 @@ public class Photo {
     @Column(nullable = false)
     String filename;
 
+    Integer time;
+
     public Photo() {
+    }
+
+    public Integer getTime() {
+        return time;
+    }
+
+    public void setTime(Integer time) {
+        this.time = time;
     }
 
     public int getId() {
@@ -59,9 +69,9 @@ public class Photo {
         this.filename = filename;
     }
 
-    public static void remove(int num){
+    public static void remove(int time){
         try {
-            Thread.sleep(num * 1000);
+            Thread.sleep(time * 1000);
 
         } catch (InterruptedException ie) {
 
