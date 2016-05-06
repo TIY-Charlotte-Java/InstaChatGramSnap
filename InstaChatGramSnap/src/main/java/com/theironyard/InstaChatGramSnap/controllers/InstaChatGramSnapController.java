@@ -22,9 +22,7 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Created by Ultramar on 5/5/16.
- */
+
 
 @RestController
 public class InstaChatGramSnapController {
