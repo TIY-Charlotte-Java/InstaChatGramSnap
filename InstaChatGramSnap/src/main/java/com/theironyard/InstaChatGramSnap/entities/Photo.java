@@ -72,7 +72,7 @@ public class Photo {
     public static void remove(int time){
         try {
             Thread.sleep(time * 1000);
-
+            
         } catch (InterruptedException ie) {
 
         }
