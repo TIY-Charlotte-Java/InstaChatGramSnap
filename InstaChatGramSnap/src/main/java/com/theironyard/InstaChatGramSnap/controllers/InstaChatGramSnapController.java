@@ -105,6 +105,7 @@ public class InstaChatGramSnapController {
         p.setFilename(photoFile.getName());
         p.setTime(Integer.valueOf("time"));
         photos.save(p);
+        String comment = String.valueOf("comment");
 
         response.sendRedirect("/");
 
