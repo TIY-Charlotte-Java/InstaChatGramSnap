@@ -72,12 +72,4 @@ public class Photo {
         this.filename = filename;
     }
 
-    public void remove(int time){
-        try {
-            Thread.sleep(time * 1000);
-            File.delete();
-        } catch (InterruptedException ie) {
-
-        }
-    }
 }

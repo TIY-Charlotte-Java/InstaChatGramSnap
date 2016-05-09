@@ -119,6 +119,11 @@ public class InstaChatGramSnapController {
 
         User user = users.findFirstByName(username);
         return photos.findByRecipient(user);
-        
+        try {
+            Thread.sleep(photos.time * 1000);
+            photos.delete(1);
+        } catch (InterruptedException ie) {
+
+        }
     }
 }
