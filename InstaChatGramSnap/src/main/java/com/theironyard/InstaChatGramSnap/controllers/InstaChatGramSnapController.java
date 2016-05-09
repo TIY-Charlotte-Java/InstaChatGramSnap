@@ -108,11 +108,15 @@ public class InstaChatGramSnapController {
 
         response.sendRedirect("/");
 
-        try {
-            Thread.sleep(Integer.valueOf("time") * 1000);
-            photos.delete(1);
-        } catch (InterruptedException ie) {
+        if (session.getAttribute("permenant").equals(true)) {
+            return p;
+        } else {
+            try {
+                Thread.sleep(Integer.valueOf("time") * 1000);
+                photos.delete(1);
+            } catch (InterruptedException ie) {
 
+            }
         }
 
         return p;
