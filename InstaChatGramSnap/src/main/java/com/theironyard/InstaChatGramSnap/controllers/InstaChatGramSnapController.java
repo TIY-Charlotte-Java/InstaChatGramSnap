@@ -5,6 +5,7 @@ import com.theironyard.InstaChatGramSnap.entities.User;
 import com.theironyard.InstaChatGramSnap.services.PhotoRepository;
 import com.theironyard.InstaChatGramSnap.services.UserRepository;
 import com.theironyard.InstaChatGramSnap.utilities.PasswordStorage;
+import org.h2.engine.Session;
 import org.h2.tools.Server;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -107,6 +108,13 @@ public class InstaChatGramSnapController {
 
         response.sendRedirect("/");
 
+        try {
+            Thread.sleep(Integer.valueOf("time") * 1000);
+            photos.delete(1);
+        } catch (InterruptedException ie) {
+
+        }
+
         return p;
     }
 
@@ -119,11 +127,6 @@ public class InstaChatGramSnapController {
 
         User user = users.findFirstByName(username);
         return photos.findByRecipient(user);
-        try {
-            Thread.sleep(photos.time * 1000);
-            photos.delete(1);
-        } catch (InterruptedException ie) {
 
-        }
     }
 }
