@@ -119,5 +119,6 @@ public class InstaChatGramSnapController {
 
         User user = users.findFirstByName(username);
         return photos.findByRecipient(user);
+        
     }
 }

@@ -1,6 +1,9 @@
 package com.theironyard.InstaChatGramSnap.entities;
 
 import javax.persistence.*;
+import java.io.File;
+
+
 
 @Entity
 @Table(name = "photos")
@@ -69,10 +72,10 @@ public class Photo {
         this.filename = filename;
     }
 
-    public static void remove(int time){
+    public void remove(int time){
         try {
             Thread.sleep(time * 1000);
-            
+            File.delete();
         } catch (InterruptedException ie) {
 
         }
